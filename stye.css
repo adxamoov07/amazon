@@ -144,7 +144,7 @@ header>img:hover {
 
 @media screen and (max-width:1060px) {
     .header_box1 {
-        width: 18.5rem;
+        width: 19rem;
     }
 
     .header_box1 input {
@@ -154,12 +154,17 @@ header>img:hover {
     }
 }
 
-@media screen and (max-width:955px) {
+@media screen and (max-width:870px) {
     .header1{
         display: block;
     }
     header{
         display: none;
+    }
+}
+@media screen and (max-width:925px) {
+    header{
+        gap: 10px;
     }
 }
 
@@ -239,13 +244,13 @@ header>img:hover {
 @media screen and (max-width:700px) {
     .header1{
         width: 100vw;
-        height: 80px;
+        height: 100px;
     }
 
 }
 @media screen and (max-width:500px) {
     .header1{
         width: 100vw;
-        height: 75px;
+        height: 100px;
     }
 }
