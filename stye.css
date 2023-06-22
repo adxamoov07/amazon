@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header1{
+    display: none;
+}
+header {
+    width: 100vw;
+    height: 60px;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header>img:hover {
+    border: 2px solid white;
+}
+
+.header_box {
+    height: 90%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header_box:hover {
+    color: #fff;
+    border: 2px solid white;
+    padding: 8px 2px;
+}
+
+.header_box1 {
+    width: 43rem;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_box1 select {
+    padding: 11.7px 10px;
+    border: none;
+    background-color: #99999940;
+    color: #444;
+}
+
+.header_box1 select:hover {
+    background-color: #999999ac;
+    color: #222;
+}
+
+.header_box1 input {
+    border: none;
+    padding: 8px 300px 10px 5px;
+    font-size: 15px;
+}
+
+.header_box1_item {
+    width: 50px;
+    height: 100%;
+    background-color: rgba(255, 166, 0, 0.836);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_box1_item:hover {
+    background-color: orange;
+}
+
+.header_box1_item i {
+    font-size: 20px;
+}
+
+.header_box2 {
+    width: 80px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header_box2:hover {
+    border: 2px solid white;
+
+}
+
+.header_box2>select {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+}
+
+.header_box3 {
+    height: 90%;
+    color: #fff;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 3px;
+}
+
+.header_box3:hover {
+    border: 2px solid white;
+}
+
+@media screen and (max-width:1350px) {
+    .header_box1 {
+        width: 33rem;
+    }
+
+    .header_box1 input {
+        border: none;
+        padding: 8px 100px 10px 5px;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:1190px) {
+    .header_box1 {
+        width: 25rem;
+    }
+
+    .header_box1 input {
+        border: none;
+        padding: 8px 80px 10px 5px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .header_box1 {
+        width: 18.5rem;
+    }
+
+    .header_box1 input {
+        border: none;
+        padding: 8px 0px 10px 0px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:955px) {
+    .header1{
+        display: block;
+    }
+    header{
+        display: none;
+    }
+}
+
+.header1 {
+    width: 100vw;
+    height: 100px;
+    background-color: rgba(18, 18, 45, 0.947);
+}
+
+.header1_item {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+.header1_item_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.header1_item_box i{
+    font-size: 25px;
+    color: #fff;
+}
+
+.header1_item img {
+    width: 100px;
+    height: 30px;
+}
+.header1_item_box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.header1_item_box1 i{
+    font-size: 25px;
+}
+.header1_item1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header1_item1_box1{
+    width: 98%;
+    height: 85%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.header1_item1_box1>input{
+    border: none;
+    font-size: 16px;
+}
+
+.header1_item1_box1_child{
+    width: 50px;
+    height: 100%;
+    background-color: rgba(255, 166, 0, 0.784);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:700px) {
+    .header1{
+        width: 100vw;
+        height: 80px;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .header1{
+        width: 100vw;
+        height: 75px;
+    }
+}
